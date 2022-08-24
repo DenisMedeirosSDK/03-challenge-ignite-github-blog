@@ -1,0 +1,46 @@
+.content {
+  margin-top: 4.5rem;
+  input {
+    height: 3.125rem;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    background: var(--base-input);
+    border: 0;
+    width: 100%;
+
+    &::placeholder {
+      color: var(--base-label);
+    }
+    &:focus {
+      outline: 1px solid var(--blue);
+    }
+  }
+
+  section {
+    margin: 3rem 0;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  p {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: var(--base-subtitle);
+  }
+
+  span {
+    font-size: 0.875rem;
+    color: var(--base-span);
+  }
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+  list-style: none;
+}

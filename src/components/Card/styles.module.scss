@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background: var(--base-post);
+  border-radius: 10px;
+  width: 100%;
+  text-decoration: none;
+  gap: 1.25rem;
+
+  &:hover {
+    outline: 2px solid var(--base-label);
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  p {
+    font-size: 1.25rem;
+    color: var(--base-title);
+    font-weight: bold;
+  }
+  span {
+    font-size: 0.875rem;
+    color: var(--base-span);
+  }
+}
+
+.description {
+  color: var(--base-text);
+}

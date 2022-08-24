@@ -1,0 +1,11 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 296px;
+  width: 100%;
+  background-image: url('../../assets/cover_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: var(--base-profile);
+}
